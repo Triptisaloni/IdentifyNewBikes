@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T14:18:36 IST" name="Suite" finished-at="2023-07-25T14:19:04 IST" duration-ms="28358">
+    <groups>
+      <group name="Regression">
+        <method signature="Tests.elementCall_dropDown()[pri:3, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_dropDown" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_hondaClick()[pri:4, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_hondaClick" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_hondaScroll()[pri:5, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_hondaScroll" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_list()[pri:6, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_list" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_newBike()[pri:1, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_newBike" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_upcomingBikes()[pri:2, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_upcomingBikes" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.emailClick()[pri:16, instance:com.cognizant.INB.Tests@689604d9]" name="emailClick" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.googleClick()[pri:14, instance:com.cognizant.INB.Tests@689604d9]" name="googleClick" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.loginClick()[pri:13, instance:com.cognizant.INB.Tests@689604d9]" name="loginClick" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.login_home()[pri:12, instance:com.cognizant.INB.Tests@689604d9]" name="login_home" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.nextButton()[pri:17, instance:com.cognizant.INB.Tests@689604d9]" name="nextButton" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.useCar_ChooseCity()[pri:9, instance:com.cognizant.INB.Tests@689604d9]" name="useCar_ChooseCity" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.useCar_home()[pri:7, instance:com.cognizant.INB.Tests@689604d9]" name="useCar_home" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.useCar_list()[pri:11, instance:com.cognizant.INB.Tests@689604d9]" name="useCar_list" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.useCar_scroll()[pri:10, instance:com.cognizant.INB.Tests@689604d9]" name="useCar_scroll" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.useCar_usedCar()[pri:8, instance:com.cognizant.INB.Tests@689604d9]" name="useCar_usedCar" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.windowHandle()[pri:15, instance:com.cognizant.INB.Tests@689604d9]" name="windowHandle" class="com.cognizant.INB.Tests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Tests.elementCall_dropDown()[pri:3, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_dropDown" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_hondaClick()[pri:4, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_hondaClick" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_hondaScroll()[pri:5, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_hondaScroll" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_list()[pri:6, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_list" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_newBike()[pri:1, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_newBike" class="com.cognizant.INB.Tests"/>
+        <method signature="Tests.elementCall_upcomingBikes()[pri:2, instance:com.cognizant.INB.Tests@689604d9]" name="elementCall_upcomingBikes" class="com.cognizant.INB.Tests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-07-25T14:18:36 IST" name="Test" finished-at="2023-07-25T14:19:04 IST" duration-ms="28358">
+      <class name="com.cognizant.INB.Tests">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:26 IST" name="driverConfig" finished-at="2023-07-25T14:18:36 IST" duration-ms="10411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="elementCall_newBike()[pri:1, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:36 IST" name="elementCall_newBike" finished-at="2023-07-25T14:18:38 IST" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_newBike -->
+        <test-method signature="elementCall_upcomingBikes()[pri:2, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:38 IST" name="elementCall_upcomingBikes" finished-at="2023-07-25T14:18:40 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_upcomingBikes -->
+        <test-method signature="elementCall_dropDown()[pri:3, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:40 IST" name="elementCall_dropDown" finished-at="2023-07-25T14:18:41 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_dropDown -->
+        <test-method signature="elementCall_hondaClick()[pri:4, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:41 IST" name="elementCall_hondaClick" finished-at="2023-07-25T14:18:43 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_hondaClick -->
+        <test-method signature="elementCall_hondaScroll()[pri:5, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:43 IST" name="elementCall_hondaScroll" finished-at="2023-07-25T14:18:43 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_hondaScroll -->
+        <test-method signature="elementCall_list()[pri:6, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:43 IST" name="elementCall_list" finished-at="2023-07-25T14:18:45 IST" duration-ms="1870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementCall_list -->
+        <test-method signature="useCar_home()[pri:7, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:45 IST" name="useCar_home" finished-at="2023-07-25T14:18:49 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCar_home -->
+        <test-method signature="useCar_usedCar()[pri:8, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:49 IST" name="useCar_usedCar" finished-at="2023-07-25T14:18:49 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCar_usedCar -->
+        <test-method signature="useCar_ChooseCity()[pri:9, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:49 IST" name="useCar_ChooseCity" finished-at="2023-07-25T14:18:53 IST" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCar_ChooseCity -->
+        <test-method signature="useCar_scroll()[pri:10, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:53 IST" name="useCar_scroll" finished-at="2023-07-25T14:18:53 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCar_scroll -->
+        <test-method signature="useCar_list()[pri:11, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:53 IST" name="useCar_list" finished-at="2023-07-25T14:18:54 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCar_list -->
+        <test-method signature="login_home()[pri:12, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:54 IST" name="login_home" finished-at="2023-07-25T14:18:58 IST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_home -->
+        <test-method signature="loginClick()[pri:13, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:58 IST" name="loginClick" finished-at="2023-07-25T14:18:58 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginClick -->
+        <test-method signature="googleClick()[pri:14, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:58 IST" name="googleClick" finished-at="2023-07-25T14:18:59 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleClick -->
+        <test-method signature="windowHandle()[pri:15, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:59 IST" name="windowHandle" finished-at="2023-07-25T14:18:59 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandle -->
+        <test-method signature="emailClick()[pri:16, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:18:59 IST" name="emailClick" finished-at="2023-07-25T14:19:01 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailClick -->
+        <test-method signature="nextButton()[pri:17, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:19:01 IST" name="nextButton" finished-at="2023-07-25T14:19:04 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextButton -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.cognizant.INB.Tests@689604d9]" started-at="2023-07-25T14:19:05 IST" name="quit" finished-at="2023-07-25T14:19:06 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.cognizant.INB.Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

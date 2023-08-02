@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\TRIPTI SALONI\Desktop\INB\INB\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_dropDown">elementCall_dropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_hondaClick">elementCall_hondaClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_hondaScroll">elementCall_hondaScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_list">elementCall_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_newBike">elementCall_newBike</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="elementCall_upcomingBikes">elementCall_upcomingBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="emailClick">emailClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="googleClick">googleClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="loginClick">loginClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="login_home">login_home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="nextButton">nextButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="useCar_ChooseCity">useCar_ChooseCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="useCar_home">useCar_home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="useCar_list">useCar_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="useCar_scroll">useCar_scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="useCar_usedCar">useCar_usedCar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.INB.Tests" class="method navigator-link" hash-for-method="windowHandle">windowHandle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cognizant.INB.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_dropDown">
+                  </a> <!-- elementCall_dropDown -->
+                  <span class="method-name">elementCall_dropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_hondaClick">
+                  </a> <!-- elementCall_hondaClick -->
+                  <span class="method-name">elementCall_hondaClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_hondaScroll">
+                  </a> <!-- elementCall_hondaScroll -->
+                  <span class="method-name">elementCall_hondaScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_list">
+                  </a> <!-- elementCall_list -->
+                  <span class="method-name">elementCall_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_newBike">
+                  </a> <!-- elementCall_newBike -->
+                  <span class="method-name">elementCall_newBike</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementCall_upcomingBikes">
+                  </a> <!-- elementCall_upcomingBikes -->
+                  <span class="method-name">elementCall_upcomingBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailClick">
+                  </a> <!-- emailClick -->
+                  <span class="method-name">emailClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleClick">
+                  </a> <!-- googleClick -->
+                  <span class="method-name">googleClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginClick">
+                  </a> <!-- loginClick -->
+                  <span class="method-name">loginClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_home">
+                  </a> <!-- login_home -->
+                  <span class="method-name">login_home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextButton">
+                  </a> <!-- nextButton -->
+                  <span class="method-name">nextButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useCar_ChooseCity">
+                  </a> <!-- useCar_ChooseCity -->
+                  <span class="method-name">useCar_ChooseCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useCar_home">
+                  </a> <!-- useCar_home -->
+                  <span class="method-name">useCar_home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useCar_list">
+                  </a> <!-- useCar_list -->
+                  <span class="method-name">useCar_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useCar_scroll">
+                  </a> <!-- useCar_scroll -->
+                  <span class="method-name">useCar_scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useCar_usedCar">
+                  </a> <!-- useCar_usedCar -->
+                  <span class="method-name">useCar_usedCar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowHandle">
+                  </a> <!-- windowHandle -->
+                  <span class="method-name">windowHandle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\TRIPTI SALONI\Desktop\INB\INB\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+        &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cognizant.INB.Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_dropDown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_hondaClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_hondaScroll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_list</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_newBike</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_upcomingBikes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">login_home</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">nextButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">useCar_ChooseCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">useCar_home</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">useCar_list</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">useCar_scroll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">useCar_usedCar</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">windowHandle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_dropDown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_hondaClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_hondaScroll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_list</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_newBike</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">elementCall_upcomingBikes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'useCar_home')
+data.setCell(0, 2, 'com.cognizant.INB.Tests')
+data.setCell(0, 3, 4737);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login_home')
+data.setCell(1, 2, 'com.cognizant.INB.Tests')
+data.setCell(1, 3, 4612);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'nextButton')
+data.setCell(2, 2, 'com.cognizant.INB.Tests')
+data.setCell(2, 3, 3516);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'useCar_ChooseCity')
+data.setCell(3, 2, 'com.cognizant.INB.Tests')
+data.setCell(3, 3, 3345);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'elementCall_upcomingBikes')
+data.setCell(4, 2, 'com.cognizant.INB.Tests')
+data.setCell(4, 3, 2475);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'elementCall_list')
+data.setCell(5, 2, 'com.cognizant.INB.Tests')
+data.setCell(5, 3, 1870);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'emailClick')
+data.setCell(6, 2, 'com.cognizant.INB.Tests')
+data.setCell(6, 3, 1851);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'elementCall_newBike')
+data.setCell(7, 2, 'com.cognizant.INB.Tests')
+data.setCell(7, 3, 1727);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'elementCall_hondaClick')
+data.setCell(8, 2, 'com.cognizant.INB.Tests')
+data.setCell(8, 3, 1419);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'elementCall_dropDown')
+data.setCell(9, 2, 'com.cognizant.INB.Tests')
+data.setCell(9, 3, 692);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'useCar_list')
+data.setCell(10, 2, 'com.cognizant.INB.Tests')
+data.setCell(10, 3, 689);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'googleClick')
+data.setCell(11, 2, 'com.cognizant.INB.Tests')
+data.setCell(11, 3, 593);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginClick')
+data.setCell(12, 2, 'com.cognizant.INB.Tests')
+data.setCell(12, 3, 324);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'useCar_usedCar')
+data.setCell(13, 2, 'com.cognizant.INB.Tests')
+data.setCell(13, 3, 198);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'elementCall_hondaScroll')
+data.setCell(14, 2, 'com.cognizant.INB.Tests')
+data.setCell(14, 3, 128);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'windowHandle')
+data.setCell(15, 2, 'com.cognizant.INB.Tests')
+data.setCell(15, 3, 34);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'useCar_scroll')
+data.setCell(16, 2, 'com.cognizant.INB.Tests')
+data.setCell(16, 3, 17);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cognizant.INB.Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">driverConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">elementCall_newBike</span>
+                <span class="method-start">10473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementCall_upcomingBikes</span>
+                <span class="method-start">12209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementCall_dropDown</span>
+                <span class="method-start">14694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementCall_hondaClick</span>
+                <span class="method-start">15390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementCall_hondaScroll</span>
+                <span class="method-start">16814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementCall_list</span>
+                <span class="method-start">16948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useCar_home</span>
+                <span class="method-start">18824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useCar_usedCar</span>
+                <span class="method-start">23561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useCar_ChooseCity</span>
+                <span class="method-start">23762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useCar_scroll</span>
+                <span class="method-start">27109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useCar_list</span>
+                <span class="method-start">27128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_home</span>
+                <span class="method-start">27817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginClick</span>
+                <span class="method-start">32433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleClick</span>
+                <span class="method-start">32761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowHandle</span>
+                <span class="method-start">33357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailClick</span>
+                <span class="method-start">33393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nextButton</span>
+                <span class="method-start">35251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">quit</span>
+                <span class="method-start">39383 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

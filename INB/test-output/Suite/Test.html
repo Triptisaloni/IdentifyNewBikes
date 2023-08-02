@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 25 14:18:36 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28358 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Regression Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cognizant.INB.Tests.useCar_usedCar()'><b>useCar_usedCar</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.useCar_ChooseCity()'><b>useCar_ChooseCity</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>3</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_upcomingBikes()'><b>elementCall_upcomingBikes</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>2</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.emailClick()'><b>emailClick</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>1</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.nextButton()'><b>nextButton</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>3</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.useCar_list()'><b>useCar_list</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.loginClick()'><b>loginClick</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_list()'><b>elementCall_list</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>1</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_newBike()'><b>elementCall_newBike</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>1</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.useCar_home()'><b>useCar_home</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>4</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.googleClick()'><b>googleClick</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_hondaScroll()'><b>elementCall_hondaScroll</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.login_home()'><b>login_home</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>4</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.windowHandle()'><b>windowHandle</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.useCar_scroll()'><b>useCar_scroll</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_hondaClick()'><b>elementCall_hondaClick</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>1</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+<tr>
+<td title='com.cognizant.INB.Tests.elementCall_dropDown()'><b>elementCall_dropDown</b><br>Test class: com.cognizant.INB.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.cognizant.INB.Tests@689604d9</td></tr>
+</table><p>
+</body>
+</html>
